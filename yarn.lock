@@ -298,6 +298,10 @@
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"
 
+"@zeit/ncc@^0.20.1":
+  version "0.20.1"
+  resolved "https://registry.yarnpkg.com/@zeit/ncc/-/ncc-0.20.1.tgz#1e282f23a171b11f5b65d3281fad7b9195cbab66"
+
 ansi-align@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ansi-align/-/ansi-align-2.0.0.tgz#c36aeccba563b89ceb556f3690f0b1d9e3547f7f"

@@ -14,7 +14,10 @@
     "precommit": "lint-staged",
     "test": "ava test/*.js",
     "release": "np",
-    "start": "node ."
+    "clean": "rimraf ./lib",
+    "build": "ncc build src -o lib",
+    "dev": "ncc run src",
+    "start": "npm run build && node ."
   },
   "author": "yelo",
   "license": "Apache-2.0",
@@ -23,6 +26,7 @@
   },
   "homepage": "https://github.com/imyelo/wolth#readme",
   "devDependencies": {
+    "@zeit/ncc": "^0.20.1",
     "ava": "^2.1.0",
     "lint-staged": "^8.2.1",
     "np": "^5.0.3",
@@ -31,6 +35,7 @@
   "dependencies": {
     "dotenv": "^8.0.0",
     "micro": "^9.3.4",
+    "rimraf": "^2.6.3",
     "wol": "^1.0.6"
   }
 }
