@@ -1,7 +1,8 @@
 {
   "name": "wolth",
   "version": "0.0.0",
-  "description": "",
+  "description": "Wake on Lan through HTTP",
+  "main": "lib",
   "files": [
     "lib"
   ],
@@ -12,7 +13,8 @@
   "scripts": {
     "precommit": "lint-staged",
     "test": "ava test/*.js",
-    "release": "np"
+    "release": "np",
+    "start": "node ."
   },
   "author": "yelo",
   "license": "Apache-2.0",
@@ -25,5 +27,10 @@
     "lint-staged": "^8.2.1",
     "np": "^5.0.3",
     "prettier": "^1.18.2"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "micro": "^9.3.4",
+    "wol": "^1.0.6"
   }
 }
