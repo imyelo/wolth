@@ -1,0 +1,29 @@
+{
+  "name": "wolth",
+  "version": "0.0.0",
+  "description": "",
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "url": "imyelo/wolth",
+    "type": "git"
+  },
+  "scripts": {
+    "precommit": "lint-staged",
+    "test": "ava test/*.js",
+    "release": "np"
+  },
+  "author": "yelo",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/imyelo/wolth/issues"
+  },
+  "homepage": "https://github.com/imyelo/wolth#readme",
+  "devDependencies": {
+    "ava": "^2.1.0",
+    "lint-staged": "^8.2.1",
+    "np": "^5.0.3",
+    "prettier": "^1.18.2"
+  }
+}
