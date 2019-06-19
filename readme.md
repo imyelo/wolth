@@ -38,6 +38,9 @@ You can now wake the machine from anywhere with a simple POST request as long as
 
 ## Configuration
 Environment variables:
+- `PORT`:
+  - optional, default value is `3000`
+  - the port of wolth server listening
 - `WOLTH_MAC`:
   - required
   - the MAC address of the machine you want to wake
@@ -55,6 +58,7 @@ WOLTH_MAC = 12:34:56:67:9a:bc
 Full config: in `.env` file
 ```ini
 # .env
+PORT = 8080
 WOLTH_MAC = 12:34:56:67:9a:bc
 WOLTH_ADDRESS = 192.168.1.10
 WOLTH_PORT = 7
