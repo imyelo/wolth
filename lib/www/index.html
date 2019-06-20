@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Wolth</title>
+    <link rel="stylesheet" href="//unpkg.com/hack@0.8.1/dist/hack.css" />
+  </head>
+  <body class="hack">
+    <div class="container">
+      <h1>WOLTH</h1>
+      <h2>Config</h2>
+      <ul>
+        <li>MAC: ${WOLTH_MAC}</li>
+        <li>Address: ${WOLTH_ADDRESS}</li>
+        <li>PORT: ${WOLTH_PORT}</li>
+      </ul>
+      <h2>Control</h2>
+      <p>Wake with curl:</p>
+
+      <pre>$ curl -X POST http://${endpoint}/</pre>
+
+      <p>Or just a click:</p>
+
+      <form method="POST">
+        <button class="btn btn-primary">Wake</button>
+      </form>
+
+      <hr/>
+
+      <p><a href="https://github.com/imyelo/wolth" target="_blank">README</a></p>
+    </div>
+  </body>
+</html>

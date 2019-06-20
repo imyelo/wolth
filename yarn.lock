@@ -298,10 +298,6 @@
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/@types/normalize-package-data/-/normalize-package-data-2.4.0.tgz#e486d0d97396d79beedd0a6e33f4534ff6b4973e"
 
-"@zeit/ncc@^0.20.1":
-  version "0.20.1"
-  resolved "https://registry.yarnpkg.com/@zeit/ncc/-/ncc-0.20.1.tgz#1e282f23a171b11f5b65d3281fad7b9195cbab66"
-
 ansi-align@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ansi-align/-/ansi-align-2.0.0.tgz#c36aeccba563b89ceb556f3690f0b1d9e3547f7f"
@@ -2569,6 +2565,11 @@ observable-to-promise@^1.0.0:
   dependencies:
     is-observable "^2.0.0"
     symbol-observable "^1.0.4"
+
+olt@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.npmjs.org/olt/-/olt-0.0.1.tgz#6645d867c03a8a86af200783d5241b41c9e65c39"
+  integrity sha512-IXgYrvZSOiQBD9RdUM54L4MrSf5VTKyAF45dkjJhygK8V4Qlf3UtOGTm58mLs92vhteIW1MLmyXlfzqm1XuE/w==
 
 once@^1.3.0, once@^1.3.1, once@^1.4.0:
   version "1.4.0"
