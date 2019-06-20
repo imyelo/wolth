@@ -11,6 +11,7 @@
     "type": "git"
   },
   "scripts": {
+    "prepublishOnly": "npm run build",
     "precommit": "lint-staged",
     "test": "ava test/*.js",
     "release": "np",
