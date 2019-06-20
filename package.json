@@ -16,8 +16,7 @@
     "release": "np",
     "clean": "rimraf ./lib",
     "build": "ncc build src -o lib",
-    "dev": "ncc run src",
-    "start": "npm run build && node ."
+    "start": "node src"
   },
   "author": "yelo",
   "license": "Apache-2.0",
