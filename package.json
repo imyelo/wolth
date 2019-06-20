@@ -1,6 +1,6 @@
 {
   "name": "wolth",
-  "version": "0.2.2",
+  "version": "0.3.0",
   "description": "Wake on Lan through HTTP",
   "bin": "lib/index.js",
   "main": "lib/index.js",
