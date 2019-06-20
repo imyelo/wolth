@@ -18,6 +18,13 @@ const help = ({ endpoint }) => `
   <body class="hack">
     <div class="container">
       <h1>WOLTH</h1>
+      <h2>Config</h2>
+      <ul>
+        <li>MAC: ${WOLTH_MAC}</li>
+        <li>Address: ${WOLTH_ADDRESS}</li>
+        <li>PORT: ${WOLTH_PORT}</li>
+      </ul>
+      <h2>Control</h2>
       <p>Wake with curl:</p>
 
       <pre>$ curl -X POST http://${endpoint}/</pre>
