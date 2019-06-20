@@ -2,30 +2,45 @@
   <head>
     <title>Wolth</title>
     <link rel="stylesheet" href="//unpkg.com/hack@0.8.1/dist/hack.css" />
+    <style>
+      .hack header {
+        margin: 5rem 0;
+      }
+      .hack footer {
+        border-top: 1px solid #f6f6f6;
+        margin: 5rem 0;
+      }
+    </style>
   </head>
   <body class="hack">
     <div class="container">
-      <h1>WOLTH</h1>
+      <header>
+        <h1>WOLTH</h1>
+        <blockquote>Wake on LAN through HTTP</blockquote>
+      </header>
+
       <h2>Config</h2>
-      <ul>
-        <li>MAC: ${WOLTH_MAC}</li>
-        <li>Address: ${WOLTH_ADDRESS}</li>
-        <li>PORT: ${WOLTH_PORT}</li>
-      </ul>
+      <div class="alert alert-info">
+        <ul>
+          <li>MAC: ${WOLTH_MAC}</li>
+          <li>Address: ${WOLTH_ADDRESS}</li>
+          <li>PORT: ${WOLTH_PORT}</li>
+        </ul>
+      </div>
       <h2>Control</h2>
       <p>Wake with curl:</p>
 
-      <pre>$ curl -X POST http://${endpoint}/</pre>
+      <pre class="language-bash">$ curl -X POST http://${endpoint}/</pre>
 
       <p>Or just a click:</p>
 
       <form method="POST">
-        <button class="btn btn-primary">Wake</button>
+        <p><button class="btn btn-primary">Wake</button></p>
       </form>
 
-      <hr/>
-
-      <p><a href="https://github.com/imyelo/wolth" target="_blank">README</a></p>
+      <footer>
+        <p><a href="https://github.com/imyelo/wolth" target="_blank">View WOLTH on GitHub</a></p>
+      </footer>
     </div>
   </body>
 </html>
